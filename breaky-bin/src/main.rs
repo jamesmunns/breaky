@@ -1,6 +1,8 @@
 use breaky::Foo;
 
 fn main() {
-    let _x = Foo;
+    let x = Foo;
+    x.hah();
+    x.hoh();
     println!("Hello, world!");
 }

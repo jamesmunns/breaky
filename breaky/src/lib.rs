@@ -1,8 +1,21 @@
 pub use berp::*;
 
-mod berp {
-    pub struct Foo;
+// Uncomment me!
+// use darp::Foo;
+
+pub fn example() {
+    let _ = Foo;
 }
 
-// Uncomment me!
-// struct Foo;
+pub mod berp {
+    pub struct Foo;
+
+    impl Foo {
+        pub fn hah(&self) {}
+        pub fn hoh(&self) {}
+    }
+}
+
+pub mod darp {
+    pub struct Foo;
+}
